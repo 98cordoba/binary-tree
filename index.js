@@ -95,5 +95,8 @@ function find(node, value) {
     return left || right;
 }
 /* CONSOLA */
+console.log("Busqueda: (Buscado, menor, mayor)");
 const res = find(root, 8);
 console.log(res.value, res.left.value, res.right.value);
+console.log("Busqueda: (menor, buscado, mayor)");
+console.log(res.left.value, res.value, res.right.value);
